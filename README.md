@@ -8,7 +8,7 @@ The public GitHub repository does **not** include the participant CSV files. Raw
 
 ## Records
 
-- Dataset DOI: `DATASET_DOI_PENDING`
+- Dataset DOI: `10.5281/zenodo.19261324`
 - Recording application: [`sEMG-manus-manager`](https://github.com/maxgraf96/sEMG-manus-manager)
 
 ## What Is Included Here
@@ -96,20 +96,5 @@ If you use this dataset, cite both the Zenodo dataset record and the companion r
 
 Suggested citation text:
 
-> Graf, Max, and Mathieu Barthet. sEMG-MANUS dataset and companion repository. Queen Mary University of London. Dataset DOI: `DATASET_DOI_PENDING`. Software DOI: `SOFTWARE_DOI_PENDING`.
-
-## Publication Workflow
-
-The intended release order is:
-
-1. Run `./scripts/build_zenodo_package`.
-2. Create a Zenodo **dataset** draft and reserve its DOI.
-3. Replace `DATASET_DOI_PENDING` in this repository and add the reserved dataset DOI to `.zenodo.json`.
-4. Push this repository to a public GitHub repository.
-5. Link the GitHub repository to Zenodo.
-6. Create the first GitHub release to mint the software DOI.
-7. Update the Zenodo dataset record to cross-link the software DOI.
-8. Publish both records.
-
-See [PUBLISHING.md](PUBLISHING.md) for the detailed step-by-step checklist.
+> Graf, Max, and Mathieu Barthet. sEMG-MANUS dataset and companion repository. Queen Mary University of London. Dataset DOI: `10.5281/zenodo.19261324`.
 
