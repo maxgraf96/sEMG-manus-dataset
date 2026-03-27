@@ -1,8 +1,8 @@
 # sEMG-MANUS Dataset
 
-This repository is the public companion repository for a multimodal dataset of synchronized surface electromyography (sEMG) and finger joint angle recordings captured with a Thalmic Labs Myo armband and a MANUS Quantum Metaglove.
+This repository is the public companion repository for a multimodal dataset of synchronised surface electromyography (sEMG) and finger joint angle recordings captured with a Thalmic Labs Myo armband and a MANUS Quantum Metaglove.
 
-The dataset was created to support research on data-driven hand pose estimation, gesture analysis, and XR musical interaction. The primary methodological description appears in Chapter 8 of the PhD thesis _When XR Meets AI: Design and Machine Learning for Performer-Centred Gestural Control in Extended Reality Musical Instruments_.
+The dataset was created to support research on data-driven hand pose estimation, gesture analysis, and XR musical interaction. The primary methodological description appears in Chapter 8 of my PhD thesis _When XR Meets AI: Design and Machine Learning for Performer-Centred Gestural Control in Extended Reality Musical Instruments_.
 
 The public GitHub repository does **not** include the participant CSV files. Raw data is prepared locally and published separately as a Zenodo dataset record.
 
