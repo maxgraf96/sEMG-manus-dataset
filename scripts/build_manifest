@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+from pathlib import Path
+
+from _dataset_tools import BUILD_DIR, collect_records, write_manifest
+
+
+def main() -> None:
+    output = BUILD_DIR / "manifest.csv"
+    path = write_manifest(output, collect_records())
+    print(path)
+
+
+if __name__ == "__main__":
+    main()
+

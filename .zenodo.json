@@ -1,0 +1,26 @@
+{
+  "title": "sEMG-MANUS Dataset Companion Repository",
+  "upload_type": "software",
+  "description": "Public companion repository for the sEMG-MANUS dataset. Update related_identifiers with the reserved Zenodo dataset DOI before the first public GitHub release.",
+  "creators": [
+    {
+      "name": "Graf, Max",
+      "affiliation": "Centre for Digital Music, School of Electronic Engineering and Computer Science, Queen Mary University of London"
+    },
+    {
+      "name": "Barthet, Mathieu",
+      "affiliation": "Centre for Digital Music, School of Electronic Engineering and Computer Science, Queen Mary University of London"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "electromyography",
+    "sEMG",
+    "hand tracking",
+    "XR",
+    "musical interaction",
+    "dataset"
+  ],
+  "related_identifiers": []
+}

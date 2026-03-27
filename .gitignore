@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Local raw dataset stays out of the public repository.
+data/
+
+# Generated manifests, reports, archives, and Zenodo staging areas.
+build/
+dist/
+*.zip
+*.tar.gz
+
+# Local Python environments.
+.venv/
+venv/
+

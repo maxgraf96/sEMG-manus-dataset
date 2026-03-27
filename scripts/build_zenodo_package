@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+from _dataset_tools import prepare_zenodo_package
+
+
+def main() -> None:
+    outputs = prepare_zenodo_package()
+    for key in ["manifest", "qc_json", "qc_md", "data_zip", "checksums", "package_dir"]:
+        print(f"{key}: {outputs[key]}")
+
+
+if __name__ == "__main__":
+    main()

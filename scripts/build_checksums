@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+from _dataset_tools import ZENODO_DIR, write_checksums
+
+
+def main() -> None:
+    if not ZENODO_DIR.exists():
+        raise SystemExit(
+            f"Missing package directory: {ZENODO_DIR}\nRun ./scripts/build_zenodo_package first."
+        )
+    path = write_checksums(ZENODO_DIR, ZENODO_DIR / "checksums.txt")
+    print(path)
+
+
+if __name__ == "__main__":
+    main()
+

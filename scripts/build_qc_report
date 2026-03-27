@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+from _dataset_tools import REPORTS_DIR, collect_records, write_qc_report
+
+
+def main() -> None:
+    json_path, md_path = write_qc_report(REPORTS_DIR / "qc_report", collect_records())
+    print(json_path)
+    print(md_path)
+
+
+if __name__ == "__main__":
+    main()
+
