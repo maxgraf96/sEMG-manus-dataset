@@ -36,10 +36,10 @@ Recommended upload set:
 
 ## 3. Update The Repository Metadata
 
-After Zenodo reserves the dataset DOI:
+After the dataset DOI exists:
 
-1. Replace `DATASET_DOI_PENDING` in [README.md](/Users/max/Code/sEMG-manus-dataset/README.md).
-2. Update [`.zenodo.json`](/Users/max/Code/sEMG-manus-dataset/.zenodo.json) and add the reserved dataset DOI under `related_identifiers`.
+1. Update [README.md](/Users/max/Code/sEMG-manus-dataset/README.md) with the published dataset DOI and record URL.
+2. Update [`.zenodo.json`](/Users/max/Code/sEMG-manus-dataset/.zenodo.json) and add the dataset DOI under `related_identifiers`.
 3. Commit those metadata updates.
 
 ## 4. Publish The Public GitHub Repository

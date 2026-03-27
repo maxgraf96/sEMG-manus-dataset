@@ -8,7 +8,9 @@ The public GitHub repository does **not** include the participant CSV files. Raw
 
 ## Records
 
-- Dataset DOI: `10.5281/zenodo.19261324`
+- Dataset DOI: [`10.5281/zenodo.19261324`](https://doi.org/10.5281/zenodo.19261324)
+- Dataset record: [`zenodo.org/records/19261324`](https://zenodo.org/records/19261324)
+- Software DOI: pending; this will be minted from the first public GitHub release archived by Zenodo
 - Recording application: [`sEMG-manus-manager`](https://github.com/maxgraf96/sEMG-manus-manager)
 
 ## What Is Included Here
@@ -92,9 +94,8 @@ This generates the ignored local outputs under `build/`, including:
 
 ## Citation
 
-If you use this dataset, cite both the Zenodo dataset record and the companion repository/software release once the DOIs have been assigned.
+If you use this dataset, cite both the Zenodo dataset record and the companion repository/software release once the software DOI has been assigned.
 
 Suggested citation text:
 
-> Graf, Max, and Mathieu Barthet. sEMG-MANUS dataset and companion repository. Queen Mary University of London. Dataset DOI: `10.5281/zenodo.19261324`.
-
+> Graf, Max, and Mathieu Barthet. sEMG-MANUS dataset and companion repository. Queen Mary University of London. Dataset DOI: `10.5281/zenodo.19261324`. Dataset URL: `https://zenodo.org/records/19261324`.

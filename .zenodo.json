@@ -1,7 +1,7 @@
 {
   "title": "sEMG-MANUS Dataset Companion Repository",
   "upload_type": "software",
-  "description": "Public companion repository for the sEMG-MANUS dataset. Update related_identifiers with the reserved Zenodo dataset DOI before the first public GitHub release.",
+  "description": "Public companion repository for the sEMG-MANUS dataset. This software/repository record should remain linked to the published dataset DOI 10.5281/zenodo.19261324.",
   "creators": [
     {
       "name": "Graf, Max",
@@ -22,5 +22,11 @@
     "musical interaction",
     "dataset"
   ],
-  "related_identifiers": []
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.19261324",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    }
+  ]
 }
